@@ -1,0 +1,13 @@
+{
+    "fileversion" : "1",
+    "data" : [
+        {
+            "name" : "aaa",
+            "link" : "test"
+        },
+        {
+            "name" : "bbb",
+            "link" : "test2"
+        }
+    ]
+}
