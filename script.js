@@ -73,11 +73,7 @@ function MoveMainThumbnailIndex(offset)
     mainThumbnailScroller = setInterval(MoveMainThumbnailIndex, 4000, 1)
 }
 
-var mainProjects
-var mainThumbnailIndex = 0
-var mainThumbnailScroller
-
-document.addEventListener("DOMContentLoaded", async function()
+async function Initialize()
 {
     var languageBadges = (await GetDataFile("Data/LanguageBadgesData.json")).data
     var toolBadges = (await GetDataFile("Data/ToolBadgesData.json")).data
@@ -88,7 +84,20 @@ document.addEventListener("DOMContentLoaded", async function()
     UpdateMainThumbnail()
     mainThumbnailScroller = setInterval(MoveMainThumbnailIndex, 4000, 1)
 
-    DisplayProjects("gamescontainer", await gameProjects)
-    DisplayBadges("languagescontainer", await languageBadges)
-    DisplayBadges("toolscontainer", await toolBadges)
-})
+    DisplayProjects("gamescontainer", gameProjects)
+    DisplayBadges("languagescontainer", languageBadges)
+    DisplayBadges("toolscontainer", toolBadges)
+}
+
+var mainProjects
+var mainThumbnailIndex = 0
+var mainThumbnailScroller
+
+if (document.readyState !== "loading")
+{
+    Initialize()
+}
+else
+{
+    document.addEventListener("DOMContentLoaded", Initialize)
+}
