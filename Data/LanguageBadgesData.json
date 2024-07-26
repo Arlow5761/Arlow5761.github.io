@@ -1,0 +1,22 @@
+{
+    "filename" : "LanguageBadgesData",
+    "fileversion" : 1,
+    "data" : [
+        {
+            "name" : "C++",
+            "logo" : "resources/cpplogo.svg"
+        },
+        {
+            "name" : "C#",
+            "logo" : "resources/csharplogo.svg"
+        },
+        {
+            "name" : "Python",
+            "logo" : "resources/pythonlogo.svg"
+        },
+        {
+            "name" : "Lua",
+            "logo" : "resources/lualogo.svg"
+        }
+    ]
+}

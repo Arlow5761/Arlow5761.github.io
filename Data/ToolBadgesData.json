@@ -1,0 +1,10 @@
+{
+    "filename" : "ToolBadgesData",
+    "fileversion" : 1,
+    "data" : [
+        {
+            "name" : "Unity",
+            "logo" : "resources/unitylogo.svg"
+        }
+    ]
+}

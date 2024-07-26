@@ -1,46 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Arlow5761</title>
+        <title>Test</title>
         <link rel="stylesheet" href="style.css">
-        <script defer src="script.js"></script>
+        <script src="script.js" async defer></script>
     </head>
-    <body class="main">
-        <div>
-            <h1>Arlow5761</h1>
-            <p>Just a normal guy making things he finds fun</p>
-        </div>
-        <div>
-            <h2>Contacts</h2>
-            <ul>
-                <li>Discord : arlow5761</li>
-                <li>e-mail : arlow5761@gmail.com</li>
-            </ul>
-        </div>
-        <div>
-            <h1>Skillset</h1>
-            <div>
-                <h2>Languages</h2>
-                <ul>
-                    <li>C++</li>
-                    <li>C#</li>
-                    <li>Python</li>
-                    <li>Lua</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Engines</h2>
-                <ul>
-                    <li>Unity</li>
-                </ul>
+    <body>
+        <div id="header">
+            <img id="headerbg" src="resources/rogadoesntlikecheating.png" alt="background image">
+            <div class="title">Arlow5761</div>
+            <div class="mainthumbnailsection">
+                <div class="btn" onclick="MoveMainThumbnailIndex(-1)">
+                    <
+                </div>
+                <div class="mainthumbnail" id="mainthumbnail" onclick="OpenMainThumbnail()">
+                    <img src="resources/rogadoesntlikecheating.png" alt="thumbnail of Roga Doesn't Like Cheating!">
+                    <div class="text">Roga Doesn't Like Cheating!</div>
+                </div>
+                <div class="btn" onclick="MoveMainThumbnailIndex(1)">
+                    >
+                </div>
             </div>
         </div>
-        <div>
-            <h1>Public Works</h1>
-            <div>
-                <h2>Games</h2>
-                <ul id="GamesList">
-                </ul>
+        <div id="body">
+            <div class="text" style="font-size: 7em;">Skills</div>
+            <div class="text" style="font-size: 4em;">Languages</div>
+            <div class="badgecontainer" id="languagescontainer">
+                <div class="badge">
+                    <img src="resources/cpplogo.svg" alt="cpplogo">
+                    <div class="text">C++</div>
+                </div>
+                <div class="badge">
+                    <img src="resources/cpplogo.svg" alt="cpplogo">
+                    <div class="text">C++</div>
+                </div>
+                <div class="badge">
+                    <img src="resources/cpplogo.svg" alt="cpplogo">
+                    <div class="text">C++</div>
+                </div>
+            </div>
+            <div class="text" style="font-size: 4em;">Tools</div>
+            <div class="badgecontainer" id="toolscontainer">
+                <div class="badge">
+                    <img src="resources/cpplogo.svg" alt="cpplogo">
+                    <div class="text">Unity</div>
+                </div>
+            </div>
+            <div class="text" style="font-size: 7em;">Projects</div>
+            <div class="text" style="font-size: 4em;">Games</div>
+            <div class="projectcontainer" id="gamescontainer">
             </div>
         </div>
     </body>

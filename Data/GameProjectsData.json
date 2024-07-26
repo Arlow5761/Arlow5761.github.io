@@ -1,0 +1,16 @@
+{
+    "filename" : "GameProjectsData",
+    "fileversion" : "2",
+    "data" : [
+        {
+            "name" : "Roga Doesn't Like Cheating!",
+            "link" : "https://aldoyfa.itch.io/11-fisika-dasar",
+            "thumbnail" : "resources/rogadoesntlikecheating.png"
+        },
+        {
+            "name" : "Hololive: Starlight Idol Music Parade",
+            "link" : "https://arlow5761.itch.io/hololive-starlight-idol-music-parade",
+            "thumbnail" : "resources/holosimp.jpg"
+        }
+    ]
+}
