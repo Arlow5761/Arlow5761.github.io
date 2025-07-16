@@ -24,7 +24,7 @@
         },
         {
             "name" : "Typescript",
-            "logo" : "resources/typescriptlogo.svg"
+            "logo" : "resources/tslogo.svg"
         },
         {
             "name" : "Golang",
