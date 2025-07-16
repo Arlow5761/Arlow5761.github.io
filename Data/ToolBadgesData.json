@@ -5,6 +5,26 @@
         {
             "name" : "Unity",
             "logo" : "resources/unitylogo.svg"
+        },
+        {
+            "name" : "Godot",
+            "logo" : "resources/godotlogo.svg"
+        },
+        {
+            "name" : "NextJS",
+            "logo" : "resources/nextjslogo.svg"
+        },
+        {
+            "name" : "React",
+            "logo" : "resources/unitylogo.svg"
+        },
+        {
+            "name" : "Vite",
+            "logo" : "resources/vitelogo.svg"
+        },
+        {
+            "name" : "Docker",
+            "logo" : "resources/dockerlogo.svg"
         }
     ]
 }

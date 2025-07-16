@@ -3,6 +3,10 @@
     "fileversion" : 1,
     "data" : [
         {
+            "name" : "C",
+            "logo" : "resources/clogo.svg"
+        },
+        {
             "name" : "C++",
             "logo" : "resources/cpplogo.svg"
         },
@@ -17,6 +21,14 @@
         {
             "name" : "Lua",
             "logo" : "resources/lualogo.svg"
+        },
+        {
+            "name" : "Typescript",
+            "logo" : "resources/typescriptlogo.svg"
+        },
+        {
+            "name" : "Golang",
+            "logo" : "resources/gologo.svg"
         }
     ]
 }
